@@ -161,7 +161,7 @@ The trained WSN-YOLO model results are available in `runs/train/WSN_YOLO/`:
 ```bibtex
 @article{wsn_yolo_sso,
   title={Ultra-Lightweight YOLO Architecture for Wireless Sensor Networks via Sperm Swarm Optimization},
-  author={Your Name},
+  author={Maidul Hasan Masum},
   year={2025}
 }
 ```
