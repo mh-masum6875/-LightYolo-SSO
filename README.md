@@ -8,13 +8,15 @@ An ultra-lightweight YOLO architecture optimized for deployment in resource-cons
 
 ## Key Achievements
 
-| Metric | WSN-YOLO | YOLOv7-tiny | Improvement |
-|--------|----------|-------------|-------------|
-| Parameters | 67,840 | 6,217,389 | **98.91% reduction** |
-| FLOPs | 0.186G | 13.2G | **98.59% reduction** |
-| Model Size | 0.276 MB | 25.1 MB | **98.9% reduction** |
-| Inference (ARM Cortex-M7) | 12.4 ms | 289.4 ms | **95.7% faster** |
-| mAP@0.5 | 58.9% | 62.4% | 94.4% retention |
+| Metric | YOLOv7-tiny | YOLOv5n | WSN-YOLO | Improvement vs YOLOv7-tiny |
+|---|---:|---:|---:|---:|
+| Parameters | 6,217,389 | 1,761,871 | 1,370,478 | **78.0% reduction** |
+| FLOPs | 13.2G | 4.1G | 3.1G | **76.5% reduction** |
+| Model Size | 47 MB | 15 MB | 2.9 MB | **93.8% reduction** |
+| mAP@0.5 | 99.69% | 99.0% | 99.57% | **99.88% retention** |
+| Precision | 98.0% | 96.5% | 97.6% | - |
+| Recall | 98.1% | 97.3% | 97.6% | - |
+| F1-Score | 98.0% | 96.9% | 97.6% | - |
 
 ## Project Structure
 
