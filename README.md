@@ -50,7 +50,7 @@ yolov7/
 ```bash
 # Clone the repository
 git clone https://github.com/mh-masum6875/-LightYolo-SSO
-cd -LightYolo-SSO
+cd ./-LightYolo-SSO
 
 # Install dependencies
 pip install -r requirements.txt
